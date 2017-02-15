@@ -2,9 +2,9 @@
 // @name           Memrise All Multiple Choice
 // @namespace      https://github.com/cooljingle
 // @description    All multiple choice when doing Memrise typing courses
-// @match          http://www.memrise.com/course/*/garden/*
-// @match          http://www.memrise.com/garden/review/*
-// @version        0.0.2
+// @match          https://www.memrise.com/course/*/garden/*
+// @match          https://www.memrise.com/garden/review/*
+// @version        0.0.3
 // @updateURL      https://github.com/cooljingle/memrise-all-multiple-choice/raw/master/Memrise_All_Multiple_Choice.user.js
 // @downloadURL    https://github.com/cooljingle/memrise-all-multiple-choice/raw/master/Memrise_All_Multiple_Choice.user.js
 // @grant          none
