@@ -4,20 +4,16 @@
 // @description    All multiple choice when doing Memrise typing courses
 // @match          https://www.memrise.com/course/*/garden/*
 // @match          https://www.memrise.com/garden/review/*
-// @version        0.0.6
+// @version        0.0.7
 // @updateURL      https://github.com/cooljingle/memrise-all-multiple-choice/raw/master/Memrise_All_Multiple_Choice.user.js
 // @downloadURL    https://github.com/cooljingle/memrise-all-multiple-choice/raw/master/Memrise_All_Multiple_Choice.user.js
 // @grant          none
 // ==/UserScript==
 
 $(document).ready(function() {
-    MEMRISE.garden.session_start = (function() {
-        var cached_function = MEMRISE.garden.session_start;
-        return function() {
-            enableAllMultipleChoice();
-            return cached_function.apply(this, arguments);
-        };
-    }());
+    MEMRISE.garden._events.start.push(() => {
+        enableAllMultipleChoice();
+    });
 
     function enableAllMultipleChoice() {
         MEMRISE.garden.session.box_factory.make = (function() {
