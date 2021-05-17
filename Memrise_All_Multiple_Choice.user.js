@@ -4,7 +4,9 @@
 // @description    All multiple choice when doing Memrise typing courses
 // @match          https://www.memrise.com/course/*/garden/*
 // @match          https://www.memrise.com/garden/review/*
-// @version        0.0.7
+// @match          https://app.memrise.com/course/*/garden/*
+// @match          https://app.memrise.com/garden/review/*
+// @version        0.0.8
 // @updateURL      https://github.com/cooljingle/memrise-all-multiple-choice/raw/master/Memrise_All_Multiple_Choice.user.js
 // @downloadURL    https://github.com/cooljingle/memrise-all-multiple-choice/raw/master/Memrise_All_Multiple_Choice.user.js
 // @grant          none
