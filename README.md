@@ -3,7 +3,7 @@
 This userscript prevents typing choice from occuring, replacing it with a multiple choice prompt.
 
 Configure the number of choices by clicking the 'All Multiple Choice' link on the left panel of a session.
-<img alt="options" src="images/memrise-all-multiple-choice.gif"/>
+<img alt="options" src="images/memrise-all-multiple-choice.gif" width="50%"/>
 
 ### Installation
 
