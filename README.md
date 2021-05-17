@@ -2,6 +2,8 @@
 
 This userscript prevents typing choice from occuring, replacing it with a multiple choice prompt.
 
+Configure the number of choices by clicking the 'All Multiple Choice' link on the left panel of a session.
+
 ### Installation
 
 The easiest method is through the Tampermonkey [chrome extension](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo) / [firefox addon](https://addons.mozilla.org/firefox/addon/tampermonkey/).
